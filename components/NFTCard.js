@@ -6,6 +6,7 @@ import { CircleButton, RectButton } from './Button'
 import { SubInfo, EthPrice, NFTTitle } from './SubInfo'
 
 const NFTCard = ({data}) => {
+  const navigation = useNavigation();
   return (
     <View style={{
         backgroundColor: COLORS.white,
